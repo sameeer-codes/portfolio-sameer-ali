@@ -1,5 +1,5 @@
 import React from "react";
-import pfp from "../assets/Media/pfp.png";
+import pfp from "../assets/Media/pfp.jfif";
 import Tabs from "../components/Tabs";
 
 const Home = () => {
@@ -20,7 +20,7 @@ const Home = () => {
               <img
                 src={pfp}
                 alt="Profile"
-                className="w-20 h-20 object-cover rounded-full"
+                className="w-40 object-cover rounded-full"
               />
             </div>
 
